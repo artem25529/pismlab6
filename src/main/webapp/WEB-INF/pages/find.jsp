@@ -23,12 +23,16 @@
         <th>name</th>
         <th>address1</th>
         <th>phone</th>
+        <th>mail</th>
+        <th>code</th>
     </tr>
 
     <tr>
         <td>${res.name}</td>
         <td>${res.address1}</td>
         <td>${res.phone}</td>
+        <td>${res.mail}</td>
+        <td>${res.stateCode}</td>
     </tr>
 
 </table>

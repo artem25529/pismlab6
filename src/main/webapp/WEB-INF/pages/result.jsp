@@ -25,6 +25,9 @@
         <th>address1</th>
         <th>address2</th>
         <th>phone</th>
+        <th>city</th>
+        <th>mail</th>
+        <th>code</th>
     </tr>
 
     <c:forEach var="customer" items="${lines}">
@@ -34,6 +37,9 @@
             <td>${customer.address1}</td>
             <td>${customer.address2}</td>
             <td>${customer.phone}</td>
+            <td>${customer.city}</td>
+            <td>${customer.mail}</td>
+            <td>${customer.stateCode}</td>
         </tr>
     </c:forEach>
 </table>

@@ -14,12 +14,19 @@ public class CustomerDetails {
     private String address1;
     private String address2;
     private String phone;
+    private String city;
+    private String mail;
+    private int stateCode;
 
-    public CustomerDetails(String name, String address1, String address2, String phone) {
+
+    public CustomerDetails(String name, String address1, String address2, String phone, String city, String mail, int stateCode) {
         this.name = name;
         this.address1 = address1;
         this.address2 = address2;
         this.phone = phone;
+        this.city = city;
+        this.mail = mail;
+        this.stateCode = stateCode;
     }
 
     public CustomerDetails() {
@@ -64,5 +71,29 @@ public class CustomerDetails {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+    public int getStateCode() {
+        return stateCode;
+    }
+
+    public void setStateCode(int stateCode) {
+        this.stateCode = stateCode;
     }
 }

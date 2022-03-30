@@ -15,10 +15,13 @@ public class CustomerDao {
     
     @PostConstruct
     private  void init() {
-        entityManager.persist(new CustomerDetails("Hetfield", "baker str", "nyc", "+12343423434"));
-        entityManager.persist(new CustomerDetails("Hammer", "Prushinskih", "GB", "+23434545"));
-        entityManager.persist(new CustomerDetails("Ulrich", "Kolasa", "Gikalo9", "+2134324"));
-        entityManager.persist(new CustomerDetails("NewSted", "Melesha", "nyc", "+45345234"));
+        entityManager.persist(new CustomerDetails("Hetfield", "baker str", "nyc", "+12343423434", "Minsk", "test@mail.ru", 1));
+        entityManager.persist(new CustomerDetails("Hammet", "addr1", "ad2", "+345456", "Minsk", "Het@mail.ru", 2));
+        entityManager.persist(new CustomerDetails("Ulrich", "addr2", "nyc", "+12343423434", "Minsk", "met@mail.ru", 3));
+        entityManager.persist(new CustomerDetails("Sykes", "addr3", "add5", "+564566", "Brest", "sdf@mail.ru", 4));
+        entityManager.persist(new CustomerDetails("Fish", "addr5", "nyc", "+12343423434", "Minsk", "342@mail.ru", 5));
+        entityManager.persist(new CustomerDetails("Mastein", "baker str", "nyc", "+34543", "Gomel", "dfg@mail.ru", 6));
+
     }
 
     @SuppressWarnings("unchecked")
