@@ -23,7 +23,7 @@
        <%-- <th>name</th>
         <th>address1</th>
         <th>phone</th>--%>
-        <th>code</th>
+        <th>zip code</th>
         <th>mail</th>
     </tr>
 
@@ -31,7 +31,7 @@
         <%--<td>${res.name}</td>
         <td>${res.address1}</td>
         <td>${res.phone}</td>--%>
-        <td>${res.stateCode}</td>
+        <td>${res.zipCode}</td>
         <td>${res.mail}</td>
     </tr>
 
