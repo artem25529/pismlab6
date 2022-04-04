@@ -16,16 +16,18 @@ public class CustomerDetails {
     private String phone;
     private String city;
     private String mail;
+    private int zipCode;
     private int stateCode;
 
 
-    public CustomerDetails(String name, String address1, String address2, String phone, String city, String mail, int stateCode) {
+    public CustomerDetails(String name, String address1, String address2, String phone, String city, String mail, int zipCode, int stateCode) {
         this.name = name;
         this.address1 = address1;
         this.address2 = address2;
         this.phone = phone;
         this.city = city;
         this.mail = mail;
+        this.zipCode = zipCode;
         this.stateCode = stateCode;
     }
 
@@ -95,5 +97,13 @@ public class CustomerDetails {
 
     public void setStateCode(int stateCode) {
         this.stateCode = stateCode;
+    }
+
+    public int getZipCode() {
+        return zipCode;
+    }
+
+    public void setZipCode(int zipCode) {
+        this.zipCode = zipCode;
     }
 }
