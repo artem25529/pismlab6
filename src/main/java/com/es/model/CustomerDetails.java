@@ -16,11 +16,12 @@ public class CustomerDetails {
     private String phone;
     private String city;
     private String mail;
+    private String fax;
     private int zipCode;
     private int stateCode;
 
 
-    public CustomerDetails(String name, String address1, String address2, String phone, String city, String mail, int zipCode, int stateCode) {
+    public CustomerDetails(String name, String address1, String address2, String phone, String city, String mail, int zipCode, int stateCode, String fax) {
         this.name = name;
         this.address1 = address1;
         this.address2 = address2;
@@ -29,6 +30,7 @@ public class CustomerDetails {
         this.mail = mail;
         this.zipCode = zipCode;
         this.stateCode = stateCode;
+        this.fax = fax;
     }
 
     public CustomerDetails() {
@@ -105,5 +107,13 @@ public class CustomerDetails {
 
     public void setZipCode(int zipCode) {
         this.zipCode = zipCode;
+    }
+
+    public String getFax() {
+        return fax;
+    }
+
+    public void setFax(String fax) {
+        this.fax = fax;
     }
 }

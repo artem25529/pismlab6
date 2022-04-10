@@ -24,7 +24,7 @@
         <th>address1</th>
         <th>phone</th>--%>
         <th>zip code</th>
-        <th>mail</th>
+        <th>fax</th>
     </tr>
 
     <tr>
@@ -32,7 +32,7 @@
         <td>${res.address1}</td>
         <td>${res.phone}</td>--%>
         <td>${res.zipCode}</td>
-        <td>${res.mail}</td>
+        <td>${res.fax}</td>
     </tr>
 
 </table>
