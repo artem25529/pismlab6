@@ -20,23 +20,13 @@
 
 <table>
     <tr>
-        <%--<th>name</th>
         <th>address1</th>
-        <th>phone</th>
-        <th>zip code</th>
-        <th>fax</th>--%>
-        <th>mail</th>
-        <th>city</th>
+        <th>address2</th>
     </tr>
 
     <tr>
-        <%--<td>${res.name}</td>
         <td>${res.address1}</td>
-        <td>${res.phone}</td>
-        <td>${res.zipCode}</td>
-        <td>${res.fax}</td>--%>
-        <td>${res.mail}</td>
-        <td>${res.city}</td>
+        <td>${res.address2}</td>
     </tr>
 
 </table>
