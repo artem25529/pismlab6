@@ -21,12 +21,12 @@
 <table>
     <tr>
         <th>address1</th>
-        <th>address2</th>
+        <th>phone number</th>
     </tr>
 
     <tr>
         <td>${res.address1}</td>
-        <td>${res.address2}</td>
+        <td>${res.phone}</td>
     </tr>
 
 </table>
