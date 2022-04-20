@@ -20,13 +20,13 @@
 
 <table>
     <tr>
-        <th>address1</th>
-        <th>phone number</th>
+        <th>zip code</th>
+        <th>city</th>
     </tr>
 
     <tr>
-        <td>${res.address1}</td>
-        <td>${res.phone}</td>
+        <td>${res.zipCode}</td>
+        <td>${res.city}</td>
     </tr>
 
 </table>

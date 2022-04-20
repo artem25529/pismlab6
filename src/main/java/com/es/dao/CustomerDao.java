@@ -15,12 +15,13 @@ public class CustomerDao {
     
     @PostConstruct
     private  void init() {
-        entityManager.persist(new CustomerDetails("Hetfield", "baker str", "nyc", "+12343423434", "Minsk", "test@mail.ru", 1, 13123, "1231432"));
-        entityManager.persist(new CustomerDetails("Hammet", "addr1", "ad2", "+345456", "Minsk", "Het@mail.ru", 2, 234234, "235353"));
-        entityManager.persist(new CustomerDetails("Ulrich", "addr2", "nyc", "+12343423434", "Minsk", "met@mail.ru", 3, 234234, "2354"));
-        entityManager.persist(new CustomerDetails("Sykes", "addr3", "add5", "+564566", "Brest", "sdf@mail.ru", 4, 234, "23542"));
-        entityManager.persist(new CustomerDetails("Fish", "addr5", "nyc", "+12343423434", "Minsk", "342@mail.ru", 5, 23234, "23142354"));
-        entityManager.persist(new CustomerDetails("Mastein", "baker str", "nyc", "+34543", "Gomel", "dfg@mail.ru", 6, 234234, "13132"));
+        entityManager.persist(new CustomerDetails("James Hetfield", "10 Downing Street, London", "2 Baker street", "+375 (29) 232-23-23", "London", "het@mail.ru", 220004, 2, "124-33-23"));
+        entityManager.persist(new CustomerDetails("Kirk Hammet", "2 Met Street, UK", "-", "+375 (29) 452-23-32", "Cardiff", "Het@mail.ru", 220404, 7, "213-43-23"));
+        entityManager.persist(new CustomerDetails("Lars Ulrich", "6 Megadeth Street, London", "5 Blessthefall st", "+375 (29) 232-23-43", "Minsk", "met@mail.ru", 220034, 4, "213-64-23"));
+        entityManager.persist(new CustomerDetails("Oliver Sykes", "9 Parkway Street, NYS", "-", "+375 (29) 761-34-47", "Brest", "dave@mail.ru", 220342, 2, "213-25-23"));
+        entityManager.persist(new CustomerDetails("Jordan Fish", "2 Elef st, London", "-", "+375 (29) 193-65-35", "Minsk", "elef@mail.ru", 220004, 7, "213-34-23"));
+        entityManager.persist(new CustomerDetails("Dave Mastein", "3 Downing Street, London", "4 Architec St", "+375 (29) 346-45-21", "Gomel", "metallica@mail.ru", 220034, 5, "563-13-23"));
+        entityManager.persist(new CustomerDetails("Ron McGovney", "5 DowPick Street, London", "-", "+375 (29) 232-23-44", "London", "brings@mail.ru", 220034, 6, "345-34-34"));
 
     }
 
