@@ -20,13 +20,13 @@
 
 <table>
     <tr>
-        <th>fax</th>
-        <th>zip code</th>
+        <th>city</th>
+        <th>state code</th>
     </tr>
 
     <tr>
-        <td>${res.fax}</td>
-        <td>${res.zipCode}</td>
+        <td>${res.city}</td>
+        <td>${res.stateCode}</td>
     </tr>
 
 </table>
