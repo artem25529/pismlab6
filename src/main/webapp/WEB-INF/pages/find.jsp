@@ -21,12 +21,12 @@
 <table>
     <tr>
         <th>city</th>
-        <th>state code</th>
+        <th>zip code</th>
     </tr>
 
     <tr>
         <td>${res.city}</td>
-        <td>${res.stateCode}</td>
+        <td>${res.zipCode}</td>
     </tr>
 
 </table>
