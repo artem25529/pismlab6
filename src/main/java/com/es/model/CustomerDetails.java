@@ -19,9 +19,10 @@ public class CustomerDetails {
     private String fax;
     private int zipCode;
     private int stateCode;
+    private double creditLimit;
 
 
-    public CustomerDetails(String name, String address1, String address2, String phone, String city, String mail, int zipCode, int stateCode, String fax) {
+    public CustomerDetails(String name, String address1, String address2, String phone, String city, String mail, int zipCode, int stateCode, String fax, double creditLimit) {
         this.name = name;
         this.address1 = address1;
         this.address2 = address2;
@@ -31,6 +32,7 @@ public class CustomerDetails {
         this.zipCode = zipCode;
         this.stateCode = stateCode;
         this.fax = fax;
+        this.creditLimit = creditLimit;
     }
 
     public CustomerDetails() {
@@ -115,5 +117,13 @@ public class CustomerDetails {
 
     public void setFax(String fax) {
         this.fax = fax;
+    }
+
+    public double getCreditLimit() {
+        return creditLimit;
+    }
+
+    public void setCreditLimit(double creditLimit) {
+        this.creditLimit = creditLimit;
     }
 }

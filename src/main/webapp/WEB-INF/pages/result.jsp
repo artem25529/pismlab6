@@ -29,6 +29,7 @@
         <th>mail</th>
         <th>code</th>
         <th>fax</th>
+        <th>credit limit</th>
     </tr>
 
     <c:forEach var="customer" items="${lines}">
@@ -40,8 +41,9 @@
             <td>${customer.phone}</td>
             <td>${customer.city}</td>
             <td>${customer.mail}</td>
-            <td>${customer.stateCode}</td>
+            <td>${customer.zipCode}</td>
             <td>${customer.fax}</td>
+            <td>${customer.creditLimit}</td>
         </tr>
     </c:forEach>
 </table>

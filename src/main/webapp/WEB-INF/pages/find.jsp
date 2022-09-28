@@ -20,13 +20,13 @@
 
 <table>
     <tr>
-        <th>Zip code</th>
-        <th>Fax</th>
+        <th>Phone number</th>
+        <th>Credit limit</th>
     </tr>
 
     <tr>
-        <td>${res.zipCode}</td>
-        <td>${res.fax}</td>
+        <td>${res.phone}</td>
+        <td>${res.creditLimit}</td>
     </tr>
 
 </table>
